@@ -1,0 +1,940 @@
+ body {
+     font-family: 'Raleway', sans-serif;
+     margin: 8px 0px 0px 0px;
+ }
+
+ main {
+     margin-inline: 4.2%;
+ }
+
+ header {
+     display: flex;
+     justify-content: space-between;
+     font-family: 'Raleway', sans-serif;
+     padding: 0px 35px 0px 35px;
+ }
+
+ h1 {
+     font-size: 20px;
+ }
+
+ #-block-titre p {
+     color: black;
+ }
+
+ #logo {
+     margin: 20px 0px 20px 20px
+ }
+
+ #logo img {
+     width: 100px;
+ }
+
+
+ nav {
+     display: flex;
+     padding-top: 10px;
+ }
+
+ nav a {
+     text-decoration: none;
+     color: black;
+     padding: 10px 35px;
+     font-size: 14px;
+ }
+
+ nav a:hover {
+     border-top: 2px solid #0864fc;
+     padding-top: 32px;
+     color: #0864fc;
+ }
+
+ .navig {
+     padding-top: 15px;
+ }
+
+ form {
+     display: flex;
+ }
+
+ #local {
+     padding: 10px 15px 10px 15px;
+     background-color: #C6CFD0;
+     border: 1px solid darkgrey;
+     border-radius: 10px 0px 0px 10px;
+     border-color: #f2f2f2;
+     font-size: 14px;
+ }
+
+ #search {
+     border: 1px solid #f2f2f2;
+     padding: 10px 10px 10px 10px;
+     font-family: 'Raleway', sans-serif;
+     font-weight: 1000;
+     font-size: 14px;
+ }
+
+ button {
+     border: 1px solid #f2f2f2;
+     border-radius: 0px 10px 10px 0px;
+     border-color: grey;
+     background-color: #0864fc;
+     font-family: 'Raleway', sans-serif;
+     color: white;
+     padding: 10px 15px 10px 15px;
+     font-weight: 1000;
+     font-size: 14px;
+ }
+
+ .b-icone {
+     display: none;
+ }
+
+ #choix_multiple {
+     list-style-type: none;
+     display: flex;
+     padding-top: 20px;
+     font-weight: 1000;
+ }
+
+ #choix_multiple a {
+     text-decoration: none;
+     color: black;
+     padding-top: 9px;
+     font-size: 14px;
+ }
+
+ #choix_multiple i {
+     margin: 11px 10px 10px;
+     color: #0864fc;
+ }
+
+ #choix {
+     padding-top: 11px;
+ }
+
+ #filtrage {
+     display: flex;
+ }
+
+ .filtre {
+     display: flex;
+     padding: 0px 10px 0px 0px;
+     border-top: 2px solid #f2f2f2;
+     border-right: 2px solid #f2f2f2;
+     border-bottom: 2px solid #f2f2f2;
+     margin: 0px 20px 0px 20px;
+     border-radius: 27px 25px 25px 27px;
+ }
+
+ #filtrage .filtre a:hover {
+     color: #0864fc;
+ }
+
+ .cercle {
+     width: 40px;
+     height: 40px;
+     margin: 0px 9px 0px 0px;
+     background-color: #dae9fc;
+     border: 0px solid rgba(0, 0, 0, 1);
+     border-radius: 50%;
+     text-align: center;
+ }
+
+ #block_info {
+     display: flex;
+     margin: 20px 0px 20px 0px;
+ }
+
+ .cercle1 {
+     border: 2px solid #f2f2f2;
+     border-radius: 50%;
+     width: 20px;
+     height: 18px;
+     margin: 13px 15px 0px 0px;
+     font-size: 14px;
+ }
+
+ #block_info i {
+     padding-left: 7px;
+     color: #0864fc;
+ }
+
+ p {
+     font-size: 14px;
+ }
+
+ #section2 {
+     display: flex;
+     margin-bottom: 30px;
+ }
+
+ #groupe_liste {
+     border: 0px solid #f2f2f2;
+     background-color: #f2f2f2;
+     border-radius: 25px;
+     padding: 10px 5px 24px 10px;
+     width: 65%;
+ }
+
+ #groupe_liste a {
+     width: 33%;
+ }
+
+
+ .titre {
+     font-size: 12px;
+     padding-left: 10px;
+     display: flex;
+ }
+
+ .titre i {
+     margin-top: 7%;
+     margin-right: 7%;
+ }
+
+
+ .titre h2 {
+     margin-bottom: 0px;
+     font-size: 16px;
+ }
+
+ #liste {
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ .carte {
+     border-radius: 25px 25px 25px 25px;
+     box-shadow: 0px 1px 5px darkgray;
+     background-color: white;
+     display: flex;
+     font-size: 60%;
+     height: 170px;
+     margin: 20px 8px 10px 10px;
+     flex-direction: column;
+
+ }
+
+ .carte img {
+     width: 97%;
+     height: 90px;
+     border-radius: 25px 25px 0px 0px;
+     padding: 2px 0px 0px 3px;
+     object-fit: cover;
+ }
+
+
+ figcaption {
+     padding-left: 10px;
+ }
+
+ figcaption h2 {
+     margin: 6px 0px 0px 0px;
+     font-size: 14px;
+ }
+
+ figcaption p {
+     margin: 7px 0px 9px 0px;
+     font-size: 12px;
+ }
+
+ .fa-star:before {
+     font-size: 10px;
+ }
+
+ .carte i,
+ .carte2 i {
+     color: #0864fc;
+ }
+
+ #groupe_liste a {
+     text-decoration: none;
+     color: black;
+ }
+
+ .griss :nth-child(1n+6) {
+     color: #f2f2f2
+ }
+
+ #affichage {
+     padding: 20px 0px 0px 20px;
+     font-weight: 1000;
+ }
+
+ #important {
+     border: 0px solid grey;
+     background-color: #f2f2f2;
+     border-radius: 25px;
+     height: 515.68px;
+     padding: 10px 10px 24px 10px;
+     margin-left: 3%;
+     width: 35%;
+ }
+
+ #groupe_important a {
+     text-decoration: none;
+     color: black;
+ }
+
+
+ .t2 {
+     padding-bottom: 12px;
+     justify-content: space-between;
+ }
+
+ .gris :nth-child(7) {
+     color: #f2f2f2;
+ }
+
+ .carte2 {
+     border-radius: 25px 25px 25px 25px;
+     box-shadow: 0px 1px 5px darkgray;
+     background-color: white;
+     display: flex;
+     font-size: 50%;
+     height: 130px;
+     margin: 20px;
+ }
+
+ .carte2 figcaption {
+     width: 39%;
+     min-width: 150px;
+ }
+
+ .carte2 img {
+     width: 120px;
+     height: 96%;
+     border-radius: 25px 0px 0px 25px;
+     padding: 2px 0px 0px 2px;
+     object-fit: cover;
+ }
+
+ .carte2 h2 {
+     margin-top: 10px;
+     font-size: 14px;
+ }
+
+ .carte2 p {
+     margin-bottom: 50px;
+     font-size: 12px;
+ }
+
+ .carte2 a {
+     text-decoration: none;
+     color: black
+ }
+
+ #groupe_activites {
+     display: flex;
+     margin-top: 20px;
+ }
+
+ #groupe_activites a {
+     text-decoration: none;
+     width: 23%;
+     color: black;
+ }
+
+ .long {
+     color: black;
+     box-shadow: 0px 1px 5px darkgray;
+     border-radius: 25px 25px 25px 25px;
+     background-color: white;
+     height: 450px;
+     font-size: 10px;
+ }
+
+ .long img {
+     height: 397px;
+     width: 100%;
+     padding-right: 0px;
+     border-radius: 23px 23px 0px 0px;
+     object-fit: cover;
+ }
+
+
+ .largeur {
+     margin: 0px 0px 0px 0px;
+ }
+
+ .largeur img {
+     width: 100%;
+     object-fit: cover;
+ }
+
+ .long a,
+ .largeur a {
+     text-decoration: none;
+     color: black;
+ }
+
+ #horizontal,
+ #horizontal2 {
+     width: 23%;
+     height: 452px;
+     margin-left: 3%;
+ }
+
+ #horizontal {
+     margin-right: 3%;
+ }
+
+ #fdp {
+     height: 250px;
+     color: black;
+     box-shadow: 0px 1px 5px darkgray;
+     border-radius: 25px 25px 25px 25px;
+     background-color: white;
+     display: flex;
+     font-size: 10px;
+     margin: 0px;
+ }
+
+ #fdp figure {
+     margin: 0px;
+     height: 235px;
+ }
+
+ #fdp a {
+     width: 100%;
+ }
+
+ #fdp img {
+     height: 210px;
+     border-radius: 23px 23px 0px 0px;
+
+ }
+
+ #idf img {
+     height: 119px;
+     border-radius: 23px 23px 0px 0px;
+ }
+
+ #idf {
+     color: black;
+     box-shadow: 0px 1px 5px darkgray;
+     border-radius: 25px 25px 25px 25px;
+     background-color: white;
+     display: flex;
+     font-size: 10px;
+     height: 170px;
+     margin-top: 28px;
+ }
+
+ #idf figure {
+     margin: 0px;
+ }
+
+ #idf a {
+     width: 100%;
+ }
+
+ #nddlg {
+     height: 190px;
+     color: black;
+     box-shadow: 0px 1px 5px darkgray;
+     border-radius: 25px 25px 25px 25px;
+     background-color: white;
+     display: flex;
+     font-size: 10px;
+     margin: 0px;
+     border-left-width: 1px;
+     border-right-width: 1px;
+     border-top-width: 1px;
+ }
+
+ #nddlg img {
+     height: 153px;
+     border-radius: 24px 24px 0px 0px;
+ }
+
+ #nddlg figure {
+     margin: 0px;
+ }
+
+ #nddlg a {
+     width: 100%;
+ }
+
+ #pl {
+     height: 227px;
+     color: black;
+     box-shadow: 0px 1px 5px darkgray;
+     border-radius: 25px 25px 25px 25px;
+     background-color: white;
+     display: flex;
+     font-size: 10px;
+     margin-top: 31px;
+ }
+
+
+ #pl img {
+     height: 175px;
+     border-radius: 23px 23px 0px 0px;
+ }
+
+ #pl figure {
+     margin: 0px;
+ }
+
+ #pl a {
+     width: 100%;
+ }
+
+ footer {
+     display: flex;
+     justify-content: space-between;
+     background-color: #f2f2f2;
+     margin-top: 50px;
+     padding-inline: 4.2%;
+ }
+
+ .foot {
+     display: flex;
+     flex-direction: column;
+     margin: 20px 100px 30px 0px;
+ }
+
+ .foot h2 {
+     font-size: 16px;
+ }
+
+ .foot a {
+     padding-top: 10px;
+     text-decoration: none;
+     color: black;
+     font-size: 14px;
+ }
+
+ .space {
+     padding-right: 17%;
+ }
+
+ @media screen and (min-width:769px) and (max-width:992px) {
+     .b-icone {
+         display: none;
+     }
+
+     .titre h2 {
+         font-size: 16px;
+     }
+
+     #choix_multiple .dog a {
+         padding-top: 8px
+     }
+
+     #section2 {
+         display: flex;
+         flex-direction: column-reverse;
+     }
+
+     #groupe_liste {
+         width: 96%;
+         padding: 10px 10px 24px 10px;
+     }
+
+     #important {
+         width: 96%;
+         margin-bottom: 20px;
+         height: 15%;
+         margin-left: 0px;
+     }
+
+     #groupe_important {
+         display: flex;
+     }
+
+     #groupe_important a {
+         max-width: 35%;
+         width: 33%;
+     }
+
+     figcaption {
+         padding-left: 5px;
+     }
+
+     .carte2 figcaption {
+         width: unset;
+         min-width: unset;
+     }
+
+
+     .carte2 img {
+         width: 80px;
+     }
+
+     .carte2 {
+         margin: 16px;
+     }
+
+
+
+     .carte2 h2,
+     .carte h2 {
+         font-size: 12px;
+         margin-top: 5px;
+         max-width: 130px;
+     }
+
+
+     .titre i {
+         margin-top: 4%;
+     }
+
+     #groupe_activites {
+         height: 310px;
+     }
+
+     .long {
+         font-size: 8px;
+         height: 270px;
+     }
+
+     .long img {
+         height: 240px;
+     }
+
+     #horizontal {
+         margin: 0px 18px 0px 18px;
+     }
+
+     #horizontal2 {
+         margin-left: 18px;
+     }
+
+     #fdp .largeur {
+         height: 130px;
+     }
+
+     #horizontal,
+     #horizontal2 {
+         height: 270px;
+         margin-left: 18px;
+     }
+
+     #fdp,
+     #nddlg,
+     #idf,
+     #pl {
+         font-size: 8px;
+         height: 130px;
+     }
+
+     #idf {
+         margin-top: 10px
+     }
+
+     #pl {
+         margin-top: 11px;
+     }
+
+     .long figcaption h2 {
+         margin-top: 0px;
+         padding-left: 3px;
+     }
+
+     figcaption h2 {
+         margin: 3px 0px 0px 0px;
+         font-size: 12px;
+     }
+
+     #fdp img,
+     #nddlg img,
+     #idf img,
+     #pl img {
+         height: 100px;
+     }
+
+     footer {
+         margin-top: 0px;
+     }
+
+     .foot {
+         margin: 0px 0px 25px 0px
+     }
+
+     .foot h2 {
+         margin-top: 20px;
+     }
+
+     .space {
+         padding-right: 25%;
+     }
+
+
+ }
+
+
+ @media screen and (max-width:768px) {
+     main {
+         margin: unset;
+     }
+
+     header {
+         display: flex;
+         flex-direction: column;
+         padding: 0px;
+     }
+
+     #logo {
+         align-self: center;
+     }
+
+     h1 {
+         max-width: 300px;
+     }
+
+     .navig {
+         width: 50%;
+         padding-bottom: 20px;
+     }
+
+     .navig:hover {
+         border-bottom: 2px solid #0864fc;
+     }
+
+     nav {
+         text-align: center;
+         font-size: large;
+         width: 100%;
+         padding: 0px;
+         display: flex;
+     }
+
+     nav a {
+         text-decoration: none;
+         color: black;
+         margin: auto;
+         width: 50%;
+         padding: 10px 40px;
+         text-align: center;
+     }
+
+     nav a:hover {
+         border-top: none;
+     }
+
+     #section1 {
+         padding-inline: 6.2%;
+     }
+
+     #search {
+         border-right-width: 0px;
+         margin-right: -8px;
+         width: 80%;
+         max-width: 300px;
+         font-size: 14px;
+     }
+
+     .b-texte {
+         display: none;
+     }
+
+     .b-icone {
+         display: unset;
+         border-radius: 10px 10px 10px 10px;
+     }
+
+     #-block-titre {
+         padding-bottom: 3%;
+     }
+
+     #choix_multiple {
+         display: flex;
+         flex-direction: column;
+     }
+
+     #filtrage {
+         display: flex;
+         flex-wrap: wrap;
+     }
+
+     .cercle {
+         margin-right: 5px;
+     }
+
+     .money {
+         width: 48%;
+         margin: 0px 10px 10px 0px;
+         padding: 0px;
+         max-width: 135px;
+     }
+
+     .fam {
+         width: 38%;
+         margin: 0px 10px 10px 0px;
+         max-width: 107px;
+     }
+
+     .heart {
+         width: 42%;
+         margin: 0px 10px 10px 0px;
+         max-width: 118px;
+     }
+
+     .dog {
+         width: 60%;
+         margin: 0px 10px 10px 0px;
+         max-width: 168px;
+     }
+
+     #choix_multiple .dog a {
+         padding-top: 10px;
+     }
+
+
+     #choix {
+         margin-bottom: 3%;
+     }
+
+     .cercle1 {
+         width: 10%;
+         max-width: 20px;
+     }
+
+     #section2 {
+         display: flex;
+         flex-direction: column-reverse;
+     }
+
+     .titre h2 {
+         font-size: 16px;
+     }
+
+     #groupe_liste {
+         background-color: unset;
+         height: 400px;
+         margin-bottom: 25px;
+         width: 100%;
+     }
+
+     figcaption {
+         padding-left: 10px;
+     }
+
+     #groupe_liste a {
+         width: 95%;
+     }
+
+     .carte {
+         margin: 10px 8px 5px 10px;
+         height: 220px;
+     }
+
+     .carte img {
+         width: 99%;
+         height: 140px;
+     }
+
+     #affichage {
+         padding: 20px 0px 0px 0px;
+         margin-left: 10px;
+     }
+
+     #important {
+         width: 100%;
+         border: 0px;
+         border-radius: 0px;
+         margin-left: 0px;
+         padding: 10px 0px 0px 0px;
+     }
+
+     .t2 {
+         padding-left: 15px;
+     }
+
+     .carte2 {
+         width: 88%;
+     }
+
+     .carte2 h2 {
+         max-width: 150px;
+
+     }
+
+     .titre i {
+         margin-right: 25px;
+         margin-top: 4%;
+     }
+
+     #groupe_activites {
+         display: block;
+     }
+
+     #section3 {
+         margin-top: 1050px;
+         padding: 0px 20px 0px 20px;
+     }
+
+     figcaption h2 {
+         font-size: 14px;
+         margin: 12px 0px 0px 0px;
+
+     }
+
+
+     .long img,
+     .largeur img {
+         width: 100%;
+         height: 140px;
+     }
+
+     #horizontal {
+         width: 100%;
+         height: 401px;
+         margin: 0px;
+     }
+
+     #horizontal2 {
+         width: 100%;
+         height: 400px;
+         margin: 0px;
+     }
+
+     .long {
+         margin-top: 20px;
+     }
+
+     .long,
+     .largeur {
+         height: 190px;
+         width: 100%;
+         margin-bottom: 20px;
+     }
+
+     #fdp,
+     #pl,
+     #nddlg,
+     #idf {
+         width: 100%;
+         height: 190px;
+     }
+
+     #fdp img,
+     #idf img,
+     #pl img,
+     #nddlg img {
+         height: 140px;
+     }
+
+     #idf,
+     #pl {
+         margin-top: 20px;
+     }
+
+
+     footer {
+         margin-top: 30px;
+         display: block;
+         padding: 0px 0px 20px 30px;
+     }
+
+     .foot {
+         margin-top: 0px;
+     }
+
+     .foot h2 {
+         margin-top: 30px;
+     }
+ }
